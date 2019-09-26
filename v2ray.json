@@ -1,12 +1,12 @@
 {
   "inbounds": [
     {
-      "port": 2333,
+      "port": 1001,
       "protocol": "vmess",
       "settings": {
         "clients": [
           {
-            "id": "uuid",
+            "id": "e7be1986-67c9-40bb-82a7-fefc1de1e7ea",
             "alterId": 64
           }
         ]
@@ -15,6 +15,24 @@
         "network": "ws",
         "wsSettings": {
         "path": "/one"
+        }
+      }
+    },
+    {
+      "port": 1002,
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "a404c623-7bdc-47a0-ab8b-c4b74fab8431",
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/two"
         }
       }
     }
